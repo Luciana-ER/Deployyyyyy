@@ -10,7 +10,7 @@ const app = express()
 
 const allowedOrigins = [
     'https://deployyyyyy-render.onrender.com', //dominio de render
-    'https://frontendvercel-459wm7vgup-lucianas-projects-fa92e4b0.vercel.app' // Dominio de tu frontend en Vercel
+    'https://deploy-459wm7vgup-lucianas-projects-fa92e4b0.vercel.app' // Dominio de tu frontend en Vercel
 ];
 
 app.use(cors({
