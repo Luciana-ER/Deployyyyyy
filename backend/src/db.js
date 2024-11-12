@@ -14,4 +14,4 @@ export const connectDB = async () => {
     } catch (err) {
         console.error("Error de conexión a la DB: ", err.message);
     }
-};
+};  
