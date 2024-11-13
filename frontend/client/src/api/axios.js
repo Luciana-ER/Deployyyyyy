@@ -1,10 +1,9 @@
 import axios from "axios";
-import { baseUrl } from "../../url";
 
 
 const instance = axios.create({
   // baseURL: 'http://localhost:4000/api',
-  baseURL: `${baseUrl}/api`,
+  baseURL: `https://deployyyyyy3.onrender.com/api`,
   withCredentials: true,
 });
 

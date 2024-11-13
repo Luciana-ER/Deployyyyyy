@@ -14,7 +14,7 @@ const app = express()
 // ];
 
 app.use(cors({
-    origin: 'https://deployyyyyy3.onrender.com',
+    origin: 'https://deployyyyyyfront3.onrender.com', //pongo direccion de frontend
     credentials: true
 }));
 
