@@ -9,8 +9,8 @@ import cors  from 'cors'
 const app = express()
 
 const allowedOrigins = [
-    'https://deployyyyyy2-render.onrender.com', //dominio de render
-    'https://deploy-459wm7vgup-lucianas-projects-fa92e4b0.vercel.app' // Dominio de tu frontend en Vercel
+    'https://deployyyyyy3.onrender.com', //dominio de render
+    'https://deploy1-36ygujpt4-lucianas-projects-fa92e4b0.vercel.app/' // Dominio de tu frontend en Vercel
 ];
 
 app.use(cors({
