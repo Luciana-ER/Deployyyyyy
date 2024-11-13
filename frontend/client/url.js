@@ -1,1 +1,1 @@
-export const baseUrl = `https://deployyyyyy3.onrender.com/`
+export const baseUrl = `https://deployyyyyy3.onrender.com`
