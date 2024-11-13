@@ -18,6 +18,12 @@ app.use(cors({
     credentials: true
 }));
 
+// Configuración de Content Security Policy
+app.use((req, res, next) => {
+    res.setHeader("Content-Security-Policy", "script-src 'self' 'unsafe-inline'; object-src 'none'; frame-ancestors 'self';");
+    next();
+});
+
 // app.use(cors({
 //     origin: 'https://deployyyyyy-render.onrender.com',
 //     credentials: true
